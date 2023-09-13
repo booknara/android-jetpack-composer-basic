@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-private fun MyApp(names: List<String> = listOf("World", "Compose")) {
+private fun MyApp(names: List<String> = listOf("World", "Jetpack", "Compose")) {
     Column(modifier = Modifier.padding(4.dp)) {
         for (name in names) {
             Greeting(name = name)
